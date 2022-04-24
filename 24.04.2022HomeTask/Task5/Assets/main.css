@@ -1,0 +1,6 @@
+body{
+    background-image: url(https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/CSS-BG-Img-Tutorial.jpg);
+    background-repeat: no-repeat,repeat;
+background-size: cover;
+height: 500px;
+}
