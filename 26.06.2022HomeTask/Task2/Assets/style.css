@@ -1,0 +1,18 @@
+.headText {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.img-wrapper{
+    margin: 5px 40px 5px 80px;
+  text-align: center;
+ display: inline-block;
+}
+
+.img-wrapper img{
+    width: 80%;
+    border-radius: 5px;
+  }
+  .img-wrapper p{
+   
+  }
