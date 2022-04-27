@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.clear-logo{
+    clear: both;
+}
+.logo {
+   margin-top: 10px;
+   margin-left: 10px;
+  float: left;
+  background-color: #f5efef;
+  width: 30%;
+  height: 70px;
+  text-align: center;
+border: 1px solid black;  
+}
+.logo p{
+    margin-top: 22px;
+}
+
+.header-content {
+   margin: 10px 10px 0px 20px;
+    float: right;
+    background-color: #f5efef;
+    width: 67%;
+    height: 70px;
+    text-align: center;
+    border: 1px solid black;  
+  }
+
+  .header-content p{
+    margin-top: 22px;
+}
+.pri-navi {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    background-color: #f5efef;
+    width: 98.5%;
+    height: 70px;
+    text-align: center;
+    border: 1px solid black;  
+  }
+
+  .pri-navi p{
+    margin-top: 22px;
+}
+
+.photo-area {
+    margin-left: 10px;
+    margin-top:10px ;
+    float: left;
+    background-color: #f5efef;
+    width: 49%;
+    height: 200px;
+    text-align: center;
+  border: 1px solid black;  
+  }
+  .photo-area p{
+      margin-top: 70px;
+  }
+  
+  .pri-mes-area {
+      margin-top: 10px;
+      margin-right: 10px;
+      float: right;
+      background-color: #f5efef;
+      width: 49%;
+      height: 200px;
+      text-align: center;
+      border: 1px solid black;  
+    }
+  
+    .pri-mes-area p{
+        margin-top: 70px;
+  }
+
+  .first-sec-mes-area {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    background-color: #f5efef;
+    width: 32.4%;
+    height: 220px;
+    text-align: center;
+    border: 1px solid black;  
+  }
+
+  .first-sec-mes-area p{
+      margin-top: 85px;
+}
+.second-sec-mes-area {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    background-color: #f5efef;
+    width: 32.4%;
+    height: 220px;
+    text-align: center;
+    border: 1px solid black;  
+  }
+
+  .second-sec-mes-area p{
+      margin-top: 85px;
+}
+.third-sec-mes-area {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    background-color: #f5efef;
+    width: 32.4%;
+    height: 220px;
+    text-align: center;
+    border: 1px solid black;  
+  }
+
+  .third-sec-mes-area p{
+      margin-top: 85px;
+}
+
+.footer-content {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    background-color: #f5efef;
+    width: 98.5%;
+    height: 40px;
+    text-align: center;
+    border: 1px solid black;  
+  }
+
+  .footer-content p{
+    margin-top: 12px;
+}
+
+
+
+

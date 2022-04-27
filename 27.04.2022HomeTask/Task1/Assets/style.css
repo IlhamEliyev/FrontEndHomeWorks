@@ -1,0 +1,51 @@
+.icons-content{
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+.faceIcon{
+    display: inline;
+}
+
+.faceIcon i{
+    font-size: 11.73em;
+    color: #3A599D;
+
+}
+
+.twitIcon{
+    margin-left: 10px;
+    display: inline;
+}
+.twitIcon i{
+    font-size: 11.73em;
+    color: #1099F5;
+}
+
+.instaIcon{
+    margin-left: 10px;
+    display: inline;
+}
+.instaIcon i{
+    font-size: 11.73em;
+    color: #5E90BC;
+}
+
+.inIcon{
+    margin-left: 10px;
+    display: inline;
+}
+.inIcon i{
+    font-size: 11.73em;
+    color: #0070B8;
+}
+
+.pcIcon{
+    margin-left: 10px;
+    display: inline;
+}
+.pcIcon i{
+    font-size: 11.73em;
+    color: #000FF4;
+}

@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url("../Images/bg.png");
+    padding-top: 300px;
+    padding-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.menu{
+    height: 80px;
+ padding-top: 20px;
+ padding-left: 25px;
+    background-color: #333333;
+}
+
+.menu a{
+    text-decoration: none;
+    color: grey;
+}
+
+.home,.about-us,.news,.contact-us,.links{
+    float: left;
+}
+.home{
+    margin-right: 15px;
+}
+.about-us{
+    margin-right: 15px;
+}
+.news{
+    margin-right: 15px;
+}
+.contact-us{
+    margin-right: 15px;
+}
+.links{
+    margin-right: 15px;
+}
+.content{
+    background-color: white;
+    padding: 40px;
+}
+.content h2{
+    color: blue;
+}
+.content p{
+    color: green;
+}
