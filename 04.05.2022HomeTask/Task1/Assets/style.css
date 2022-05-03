@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.villiam {
+  width: 800px;
+  height: 500px;
+  background-image: url(../Images/img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  position: relative;
+}
+
+.villiam .info {
+  width: 100%;
+  height: 100px;
+  background-color: #262626;
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  padding: 20px;
+}
+.villiam .info p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.villiam .date {
+  width: 32%;
+  height: 50px;
+  background-color: #187881;
+  padding: 0px 20px;
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+}
+.villiam .date pre {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 50px;
+}
+
+.villiam .icon {
+  font-size: 100px;
+  color: #fff;
+  padding: 20px;
+  
+}
+
+.villiam .left-icon {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+}
+
+.villiam .right-icon {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+}

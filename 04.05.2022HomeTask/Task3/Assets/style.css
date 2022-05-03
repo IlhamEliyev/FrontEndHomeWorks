@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  li{
+    list-style-type: none;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  .clear{
+    clear: both;
+  }
+  
+  /* Start Project */
+  
+  /* Start Nav */
+  .nav{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+  .nav .navwrapper {
+    width: 100%;
+    height: 100px;
+    background-color: #2c3e50;
+  }
+  .nav .logo {
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+  .nav .logo a {
+    color: #ffffff;
+    font-size: 27px;
+    line-height: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .nav .navmenu {
+    width: 50%;
+    height: 100%;
+    float: right;
+  }
+  .nav .navmenu ul {
+    float: right;
+    line-height: 100px;
+  }
+  .nav .navmenu ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 40px;
+  }
+  .nav .navmenu ul li a {
+    color: #ffffff;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: all .4s ease;
+    font-weight: bold;
+  }
+  .nav .navmenu ul li a:hover {
+    color: #1abc9c;
+  }
+  
+  /* Header */
+  .header .hcontent {
+    width: 100%;
+    height: calc(100vh - 10px);
+    background-color: #1abc9c;
+    text-align: center;
+  }
+  .header .hcontent img{
+    width: 240px;
+    height: 255px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+  }
+  .header .hcontent h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .staricon{
+    width:100%;
+    height: 20px;
+    margin: auto;
+  }
+  .staricon .leftspan {
+    display: inline-block;
+    width: 140px;
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 100px;
+  }
+  .staricon .rightspan {
+    display: inline-block;
+    width: 140px;
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    
+  }
+  .staricon .star{
+    display: inline-block;
+    position: relative;
+    top:5px;
+    margin:0px 15px
+  
+  }
+  .staricon .star i{
+    color: #ffffff;
+    display: inline-block;
+    font-size: 31px;
+  }
+  .header .hcontent p{
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+  }
+  /* Portfolio */
+  .portfolio .pcontent{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin-bottom:150px;
+  }
+  .portfolio .pcontent h2{
+    padding-top: 100px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: #2c3e50;
+  }
+  .portfolio .pcontent .staricon .leftspan{
+    background-color: #2c3e50;
+  }
+  .portfolio .pcontent .staricon .rightspan{
+    background-color: #2c3e50;
+  }
+  .portfolio .pcontent .staricon .star i{
+    color: #2c3e50;
+  }
+  
+  .smurfs{
+    margin-top: 20px;
+    width: 100%;
+  }
+  .smurfs .item {
+    width: 33.3%;
+    padding: 20px;
+    float: left;
+    position: relative;
+  }
+  .smurfs .item:hover .hoverlay{
+    opacity: 1;
+    visibility: visible;
+  }
+  .smurfs .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    }
+  .smurfs .hoverlay{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    background-color: #1abc9cdb;
+    border-radius: 20px;
+    opacity: 0;
+    transition: all .3s ease;
+    visibility: hidden;
+  }
+  .smurfs .hoverlay i{
+    font-size: 100px;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  /* About */
+  .about{
+      padding-top: 25px;
+  }
+  .about .acontent{
+      
+    width: 100%;
+    background-color: #1abc9c;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  .about .acontent h2{
+    padding-top: 100px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: #ffffff;
+  }
+  .about .acontent .aboutitems{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 90px;
+  }
+  .about .acontent .aboutitems .leftitem{
+    width: 50%;
+    text-align: left;
+    float: left;
+  }
+  .about .acontent .aboutitems .leftitem p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+  .about .acontent .aboutitems .rightitem{
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+  }
+  .about .acontent .aboutitems .rightitem p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 10px;
+  }
+  .about .acontent .btnabout{
+    width: 230px;
+    padding: 20px 0px;
+    background-color: #1abc9c;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    transition: all .3s ease;
+  }
+  .about .acontent .btnabout:hover{
+    background-color: #ffffff;
+  }
+  .about .acontent .btnabout:hover a{
+   color: black;
+  }
+  .about .acontent .btnabout:hover i{
+    color: black;
+   }
+  .about .acontent .btnabout a{
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .about .acontent .btnabout i{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 5px;
+  }
+  
+  /* Contact Me */
+  .contact .ccontent{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  .contact .ccontent h2{
+    padding-top: 100px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: #2c3e50;
+  }
+  .contact .ccontent .staricon .leftspan{
+    background-color: #2c3e50;
+  }
+  .contact .ccontent .staricon .rightspan{
+    background-color: #2c3e50;
+  }
+  .contact .ccontent .staricon .star i{
+    color: #2c3e50;
+  }
+  .contact .ccontent .formwrapper{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: left;
+  }
+  .contact .ccontent .formwrapper form input{
+    width: 100%;
+    padding: 20px 1px;
+    border: none;
+  }
+  .contact .ccontent .formwrapper form input::placeholder{
+    font-size: 25px;
+  }
+  .contact .ccontent .formwrapper form textarea{
+    min-width: 729.2px;
+    max-width: 729.2px;
+    border: none;
+    padding: 25px 1px;
+  }
+  
+  .contact .ccontent .formwrapper form textarea::placeholder{
+  font-size: 25px;
+  }
+  .contact .ccontent .formwrapper form button{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #1abc9c;
+    color: #ffffff;
+    border: none;
+  }
+  
+  /* Footer */
+  .footer .fcontent{
+    width: 100%;
+    background-color: #2C3E50;
+    padding-bottom: 100px;
+  }
+  .footer .fcontent .fitemwrapper{
+    padding-top: 100px;
+  }
+  .footer .fcontent .fitem{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+  }
+  .footer .fcontent .fitem h2{
+    font-size: 28px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .footer .fcontent .fitem p{
+    padding-top: 40px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .footer .fcontent .fitem3 a{
+    color: #1abc9c;
+    text-decoration: underline;
+  }
+  .ficonswrapper{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    padding-top: 35px;
+  }
+  .ficonswrapper .ficons{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    transition: all .4s ease;
+  }
+  .ficonswrapper .ficons:hover{
+    background-color: #ffffff;
+  }
+  .ficonswrapper .ficons:hover i{
+    color: #2c3e50;
+  }
+  .ficonswrapper .ficons i{
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  /* - - - - - */
+  .underfooter .ufitem{
+    width: 100%;
+    padding: 30px;
+    background-color: #1A252F;
+    text-align: center;
+  }
+  .underfooter .ufitem p{
+    color: #ffffff;
+  }
