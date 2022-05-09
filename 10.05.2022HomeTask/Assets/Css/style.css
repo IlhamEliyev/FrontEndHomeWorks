@@ -1,0 +1,237 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none!important;
+}
+li{
+    list-style-type: none;
+}
+/* Nav */
+.navbar-collapse .navbar-nav li{
+    margin-left: 20px;
+}
+.navbar-collapse .navbar-nav li i{
+        font-size: 20px;
+        color: blue;
+        
+}
+nav .navbar-brand{
+    font-size: 1.4em;
+    font-weight: 300;
+}
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+nav .navbar-nav li a{
+    font-size: .8em;
+    font-weight: 700;
+}
+/* Header */
+header{
+    width: 100%;
+    background-image: url(../Images/photo-1443527216320-7e744084f5a7-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    background-position: center;
+}
+
+header .hcontent h1{
+    color: #fff;
+    font-size: 3.5em;
+    font-weight: 400;
+}
+header .hcontent p{
+    color: #fff;
+    font-size: .9em;
+    margin-top: 25px;
+    font-weight: 400;
+}
+.btnwrap button{
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    width: 200px;
+    border: none;
+    border-radius: 0px;
+    margin-top: 25px;
+}
+ .btnwrap .button1{
+    background-color: #5746C9;
+}
+header .btnwrap .button1:hover{
+    background-color: #4f3fb7;
+}
+header .btnwrap .button2{
+    background-color: #fff;
+    color: black;
+}
+
+/* Ceo Section */
+#ceo img{
+    width: 100%;
+    height: 100%;
+
+}
+#ceo .ceoitems h3{
+    font-weight: 400;
+}
+#ceo .ceoitems p{
+    color: #8E99A0;
+    font-size: 15px;
+}
+
+/* Portfolio */
+#portfolio{
+    background-color: #F5F5F5;
+}
+#portfolio img{
+    width: 100%;
+    height: 100%;
+
+}
+#portfolio .portfolioitems h3{
+    font-weight: 400;
+}
+#portfolio .portfolioitems p{
+    color: #8E99A0;
+    font-size: 15px;
+}
+
+/* Small */
+#small{
+    background-image: url(../Images/section-photo.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#small .smallcontent h1{
+    color: #fff;
+    font-size: 3.5em;
+    font-weight: 400;
+}
+#small .smallcontent p{
+    color: #fff;
+    font-weight: 400;
+}
+
+/* Options */
+#options{
+    background-color: #F5F5F5;
+}
+
+#options .oitemswrap h3{
+    font-weight: 400;
+}
+#options .oitemswrap p{
+    color: #a6aaae;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+#options .oimgwrap{
+    width: 100%;
+    height: 100%;
+}
+
+/* Project */
+#project{
+    background-color: #0E1015;
+}
+#project h3{
+    color: #fff;
+}
+#project p{
+    color: #fff;
+}
+#project .projectitems .item{
+    height: 260px;
+}
+#project .projectitems .item img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.bg-imgs {
+    background-image: url(../Images/bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.left-icon{
+    width: 24px;
+    height: 24px;
+    
+}
+.left-icon i{
+    color: #000;
+}
+
+.icons{
+    display: flex;
+    align-content: space-between;
+}
+
+.icons a {
+    margin: auto
+}
+
+.icons a img{
+    width: 20%;
+    border-radius: 50%;
+}
+
+.s3content h1{
+    margin-bottom: 50px;
+}
+
+.bg-clrs{
+    height: 30vh;
+    background-color: #F5F5F5;
+}
+
+.bg-clrss{
+width: 100%;
+    height: 40vh;
+    background-color: black;
+}
+.icon-img img{
+    border-radius: 50%;
+} 
+.slayd-wrapper{
+    position: relative;
+
+}
+.slayd-wrapper .left-icon{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.slayd-wrapper .right-icon{
+    position: absolute;
+    top: 35%;
+    right: 10%;
+}
+
+.ficons a i{
+    margin-left: 15px;
+    text-decoration: none!important;
+    color: white;
+
+}
+
